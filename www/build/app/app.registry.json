@@ -1,0 +1,77 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "core": "app.core.js",
+  "components": {
+    "app-detailSupprimer": {
+      "bundleIds": {
+        "$": "app-detailSupprimer"
+      }
+    },
+    "app-home": {
+      "bundleIds": {
+        "$": "app-home"
+      },
+      "encapsulation": "shadow"
+    },
+    "app-hommy": {
+      "bundleIds": {
+        "$": "app-hommy"
+      }
+    },
+    "app-profile": {
+      "bundleIds": {
+        "$": "app-profile"
+      },
+      "encapsulation": "shadow"
+    },
+    "app-root": {
+      "bundleIds": {
+        "$": "app-root"
+      },
+      "encapsulation": "shadow"
+    },
+    "article-list": {
+      "bundleIds": {
+        "$": "app-hommy"
+      }
+    },
+    "editer-article": {
+      "bundleIds": {
+        "$": "editer-article"
+      }
+    },
+    "my-app": {
+      "bundleIds": {
+        "$": "my-app"
+      }
+    },
+    "new-article": {
+      "bundleIds": {
+        "$": "new-article"
+      }
+    },
+    "stencil-route": {
+      "bundleIds": {
+        "$": "stencil-route"
+      }
+    },
+    "stencil-route-link": {
+      "bundleIds": {
+        "$": "stencil-route-link"
+      }
+    },
+    "stencil-route-switch": {
+      "bundleIds": {
+        "$": "stencil-route"
+      }
+    },
+    "stencil-router": {
+      "bundleIds": {
+        "$": "stencil-route"
+      }
+    }
+  }
+}

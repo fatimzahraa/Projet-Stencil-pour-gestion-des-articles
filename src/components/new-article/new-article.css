@@ -1,0 +1,13 @@
+form{
+    margin:100px;
+    padding: 30px;
+    border: solid 1px lightgrey;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.space{
+
+    margin-left:30%;
+    margin-left:50%;
+}

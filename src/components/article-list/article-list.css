@@ -1,0 +1,13 @@
+.skeleton-list {
+    margin: 1.5em;
+    height: 600px;
+    
+    background-repeat: repeat-y;
+    background-size: 100% 80px, 100% 80px, 20% 80px;
+    background-position: 10px 0, 10px 30px;
+  }
+
+  .ar {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: grid;
+  }
